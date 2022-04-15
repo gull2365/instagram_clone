@@ -1,3 +1,6 @@
+body {
+    background-color: #fafafa;
+}
 html,body {     
     margin: 0;     
     padding: 0; 
@@ -10,6 +13,8 @@ header {
     border-bottom: 1px solid #d8d8d8;
     align-items: center;
     justify-content: center;
+    position: fixed;
+    z-index: 90; 
 }
 .mid {
     width: 100% auto;
@@ -76,6 +81,8 @@ header {
     width: 100%;
     height: 100%;
     background-color: #fafafa;
+    position: relative;
+    top: 60px;
 }
 .content {
     width: 935px;
@@ -351,6 +358,8 @@ header {
     margin: 0 0 30px;
     display: flex;
     flex-direction: column;
+    position: fixed;
+    left: 1135px;
 }
 .account {
     width: 293px;
@@ -505,16 +514,53 @@ header {
     font-size: 12.5px;
     font-weight: bold;
 }
-.footer {
-    width: 100%;
-    height: 88px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0 20px;
+.yiyong {
+    width: 293px;
+    height: 91px;
+    padding: 0 0 38px;
+    margin: 0;
 }
-.fot_in {
-    width: 100%;
-    height: 88px;
-    padding: 10px 0;
+.yi1 {
+    height: 57px;
+    margin-bottom: 16px;
+}
+.yi_1 {
+    height: 54px;
+    margin: 0 0 3px;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.yi_2 {
+    height: 18px;
+    display: inline-block;
+    list-style-type: none;
+    list-style-position: outside;
+}
+.yi_3 {
+    font-size: 12px;
+    color: #c7c7c7;
+    margin-left: 2px;
+}
+ul {
+    list-style: none;
+}
+.lang {
+    font-size: 12px;
+    color: #c7c7c7;
+    margin-left: 2px;
+}
+.languege {
+    opacity: 0;
+    width: 24px;
+    height: 16px;
+    position: relative;
+    right: 28px;
+}
+.languege:focus {
+    outline: none;
+}
+.ang {
+    font-size: 12px;
+    color: #c7c7c7;
 }
